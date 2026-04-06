@@ -1,0 +1,2 @@
+→ STDIN: {"content":"You are being accessed remotely via ClaudeLink. Say hello and briefly describe what you can do.","type":"user_message"}
+← STDOUT: Error: Expected message type 'user' or 'control', got 'user_message'

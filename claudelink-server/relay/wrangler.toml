@@ -1,0 +1,13 @@
+name = "claudelink-relay"
+main = "src/index.ts"
+compatibility_date = "2025-07-18"
+
+# Durable Objects binding — required for WebSocket sessions
+[[durable_objects.bindings]]
+name = "SESSIONS"
+class_name = "SessionRelay"
+
+# Durable Object migration
+[[migrations]]
+tag = "v1"
+new_classes = ["SessionRelay"]
