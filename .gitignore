@@ -49,3 +49,7 @@ claudelink-qr-*.png
 
 # Claude
 .claude/
+
+# Docs (keep local only, except README.md)
+MARKET_RESEARCH_REPORT.md
+PLAN.md
